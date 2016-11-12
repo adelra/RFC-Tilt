@@ -2,9 +2,10 @@
 # simple tool for calculating Duration
 # Adel Rahimi
 
-Drise = 12 #Number
-Dfall = 22 #Number
+Drise = int(input("enter rise duration? ")) #Number
+Dfall = int(input("fall duration duration? ")) #Number
 
 tilt_dur = (Drise - Dfall) / (Drise + Dfall)
 
-print (tilt_dur)
+print ("tilt duration is", tilt_dur)
+
