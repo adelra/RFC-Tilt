@@ -3,11 +3,11 @@
 # Adel Rahimi
 
 # we have to define A Rise
-arise = 12 #number
+arise = int(input("enter Amplitude rise? ")) #Number
 
 # We have to define A Fall
-afall = 22 #number
+afall = int(input("enter Amplitude fall? ")) #Number
 
 tilt_amp = (abs(arise) - abs(afall))/ (abs(arise) + abs(afall))
 
-print (tilt_amp)
+print ("tilt amp is", tilt_amp)
