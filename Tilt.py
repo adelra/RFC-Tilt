@@ -4,13 +4,13 @@
 
 # First we define Arise, Afall, Drise, And Dfall
 
-Arise = 11 #Number
+Arise = int(input("enter Amplitude rise? ")) #Number
 
-Afall = 32 #Number
+Afall = int(input("enter amplitude fall? ")) #Number
 
-Drise = 12 #Number
+Drise = int(input("enter duration rise? ")) #Number
 
-Dfall = 22 #Number
+Dfall = int(input("enter duration fall? ")) #Number
 
 tilt = (( abs(Arise) - abs(Afall) ) / 2 * ( abs(Arise) + abs(Afall) )) + (( Drise - Dfall ) / 2 * (Drise + Dfall))
 
